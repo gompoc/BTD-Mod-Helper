@@ -1,12 +1,12 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <BloonsTD6>C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6</BloonsTD6>
-        <ManagedFolder>$(BloonsTD6)\MelonLoader\Managed</ManagedFolder>
+        <BloonsTD6>E:\Windows\Documents\Coding\APKS\Bloons\BloonsMods\Libs</BloonsTD6>
+        <ManagedFolder>$(BloonsTD6)</ManagedFolder>
     </PropertyGroup>
     <ItemGroup>
         <Reference Include="Microsoft.CSharp"/>
-        <Reference Include="$(BloonsTD6)\MelonLoader\MelonLoader.dll"/>
-        <Reference Include="$(BloonsTD6)\MelonLoader\0Harmony.dll"/>
+        <Reference Include="$(BloonsTD6)\MelonLoader.dll"/>
+        <Reference Include="$(BloonsTD6)\0Harmony.dll"/>
         <Reference Include="$(ManagedFolder)\Assembly-CSharp.dll" />
         <Reference Include="$(ManagedFolder)\Il2Cppmscorlib.dll" />
         <Reference Include="$(ManagedFolder)\Il2CppSystem.Core.dll" />

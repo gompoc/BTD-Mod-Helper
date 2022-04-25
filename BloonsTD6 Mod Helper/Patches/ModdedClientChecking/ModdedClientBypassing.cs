@@ -23,7 +23,7 @@ namespace BTD_Mod_Helper.Patches.ModdedClientChecking
         internal static void StartBypassingCheck()
         {
             CurrentlyBypassingCheck = true;
-            Modding.isModdedClient = false;
+            //Modding.isModdedClient = false;
         }
 
         /// <summary>
@@ -32,7 +32,7 @@ namespace BTD_Mod_Helper.Patches.ModdedClientChecking
         internal static void StopBypassingCheck()
         {
             CurrentlyBypassingCheck = DefaultBypassCheck;
-            Modding.isModdedClient = !DefaultBypassCheck;
+            //Modding.isModdedClient = !DefaultBypassCheck;
         }
     }
 }
